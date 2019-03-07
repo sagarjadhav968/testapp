@@ -9,9 +9,8 @@ import {
 } from 'amexio-ng-extensions';
 
 const APP_ROUTE: Routes = [
-  {path:'',loadChildren:'./home/home.module#HomeModule'}
+  {path:'',loadChildren:'./home/home.module#HomeModule'},
 ];
-
 @NgModule({
   declarations: [
     AppComponent,
